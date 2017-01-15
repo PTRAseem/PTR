@@ -1,0 +1,5 @@
+ProcessWideConfig/@MaxThreads:=:8
+TestingConfigurations/Config[@ID="UnitTestCases"]/@IsEnabled:=:true
+TestingConfigurations/Config[1]//@TestingProjectLocation:=:C:\TestExecutionLocation\TestResults.xml
+
+ProcessWideConfig/@ThreadCount:=:%VAL%
